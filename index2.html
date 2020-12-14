@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo de SINF - </title>
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap"> 
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <script src="javascript/funciones.js"></script>
+</head>
+<body>
+
+<!-- BARRA DE NAVEGACION -->
+
+    <body data-new-gr-c-s-check-loaded="8.867.0">
+    <div id="container" >
+<div class="topnav" id="myTopnav">
+        <a href="#hero" >Home</a>
+        <a href="#introduccion" >Introduccion</a>
+        <a href="#tipos" >Tipos</a>
+        <a href="#funcionamiento">Funcionamiento</a>
+        <a href="#instalacion">Instalacion</a>
+        <a href="#marcas" >Marcas</a>
+        <a href="#dondeyprecios">Donde y precios</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            &#9776;
+        </a>
+    </div>
+<div style="padding-left:16px">
+</div>
+        <section id="hero">
+            
+        </section>
+        <section id="intro" >
+            <p>"Si no hay dudas, no hay progreso"</p>
+            <p>Charles Darwing</p>
+        </section>
+        <section id="introduccion">
+            
+            <h1>INTRODUCCIÓN</h1>
+
+            <img src="imagenes/memoriaflash.png" alt="Fuente:pixabay.com" id="imagenMemorias">
+            
+            <p>He iniciado asi mi página, con la cita de Darwing, la creación de las memorias flash viene de ese concepto, su creador dudaba de que el predecesor de las memorias flash (EEPROM) fuese la manera mas eficiente o perfecta del dispositivo y investigo como mejorar su funcionamiento.
+            </p>
+            <p>La memoria flash es una tecnología que permite la lectura y escritura de múltiples posiciones de la memoria en la misma operación mediante impulsos eléctricos (tecnología flash) la cual ofrece unas velocidades de funcionamiento superiores a su predecesor (EEPROM). Están orientadas a realizar el almacenamiento de grandes cantidades de datos, que sean mas faciles de transportar y accesibles.
+            </p>
+            <p>Aunque las caracteristicas que hacen destacar a las memorias flash sobre EEPROM son: <br>1. Gran resistencia a los golpes <br>2. Muy silencioso<br>3. Bajo consumo<br>4. Pequeño tamaño<br>5. Muy ligero y versátil<br>6. Elevada resistencia térmica
+            </p>
+            <p>Esta tecnología la podemos encontrar en Memorias USB, unidades de estado solido y BIOS entre otros.
+            </p>
+            <p>Las aplicaciones más habituales son:<br>--> Las memorias USB que, además del almacenamiento, puede incluir otros servicios como, lector de huella digital, radio FM, grabación de voz y, sobre todo, como reproductores portátiles de MP3 y otros formatos de audio.
+               Las PC Card (descontinuado).<br><br> --> Las tarjetas de memoria flash que son usadas para almacenar fotos y videos en las cámaras digitales.<br><br>-->También son comunes en los teléfonos móviles y tabletas para ampliar la capacidad de almacenamiento.
+            </p>
+            <p>Existen varios estándares de encapsulados promocionados y fabricados por la mayoría de las multinacionales dedicadas a la producción de hardware. Los más comunes hoy en día son Secure Digital, Compact Flash y Memory Stick.
+            </p>
+        </section>
+        <section id="tipos">
+            <h1>TIPOS</h1>
+            <p>Los distintos componentes que encontramos con esta tecnología son:</p>
+            
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="imagenes/tarjetasd.jpg" alt="Tarjeta SD" width="600" height="400">
+                    <div class="desc">Tarjeta SD</div>
+                </div>
+            </div>
+            
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="imagenes/xdpicturecard.jpg" alt="xD Picture Card" width="600" height="400">
+                    <div class="desc">xD Picture Card</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="imagenes/memorystick.jpg" alt="Memory Stick" width="600" height="400">
+                    <div class="desc">Memory Stick</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="imagenes/compactflash.jpg" alt="Compact Flash" width="600" height="400">
+                    <div class="desc">Compact Flash</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="imagenes/smartmedia.jpg" alt="SmartMedia" width="600" height="400">
+                    <div class="desc">SmartMedia</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="imagenes/memoryflashusb.jpg" alt="Memory Flash USB" width="600" height="400">
+                    <div class="desc">Memory Flash USB (Pendrive)</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="imagenes/securedigitalcard.jpg" alt="Secure Digital Card" width="600" height="400">
+                    <div class="desc">Secure Digital Card</div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <p>La propia memoria flash tiene 2 tipos distintos de funcionamiento : NOR y NAND</p>
+
+        </section>
+
+        <section id="funcionamiento">
+            <h1>FUNCIONAMIENTO</h1>
+
+            <p> Dependiendo de si la celda está a 1 ó a 0, el campo eléctrico de la celda existe o no.
+                Cuando se lee la celda poniendo un determinado voltaje en CG, la corriente eléctrica fluye o no en función del voltaje almacenado en la celda.
+                En los dispositivos de celda multi-nivel, se detecta la intensidad de la corriente para controlar el número de electrones almacenados en FG e interpretarlos adecuadamente.
+                Para programar una celda de tipo NOR se permite el paso de la corriente desde la terminal fuente al terminal sumidero, entonces se coloca en CG un voltaje alto para absorber los electrones y retenerlos en el campo eléctrico que genera.
+            </p>
+            <p> → Memorias flash de tipo NOR :<br>
+                Dependiendo de si la celda está a 1 ó a 0, el campo eléctrico de la celda existe o no. Cuando se lee la celda poniendo un determinado voltaje en CG, la corriente eléctrica fluye o no en función del voltaje almacenado en la celda. En los dispositivos de celda multi-nivel, se detecta la intensidad de la corriente para controlar el número de electrones almacenados en FG e interpretarlos adecuadamente. Para programar una celda de tipo NOR se permite el paso de la corriente desde la terminal fuente al terminal sumidero, entonces se coloca en CG un voltaje alto para absorber los electrones y retenerlos en el campo eléctrico que genera.(Si pone el raton en la imagen la podra ver la más grande)
+            </p>
+
+            <div class="dropimage">
+                <img src="imagenes/funcionamientonor.png" id="FuncionamientoNOR" width="400" >
+                <div class="dropimage-content">
+                    <img src="imagenes/funcionamientonor.png" id="FuncionamientoNOR" height="600" width="600" >
+                    <div class="descimage">Funcionamiento NOR</div>
+                </div>
+            </div>
+
+            <p> → Memorias flash de tipo NAND :<br>
+                Las memorias basadas en NAND tienen, además de la evidente base en otro tipo de puertas, un costo bastante inferior, unas diez veces mayor resistencia a las operaciones y sólo permiten acceso secuencial , frente a las memorias flash basadas en NOR que permiten lectura de acceso aleatorio. Las populares memorias USB o también llamadas Pendrives, utilizan memorias flash de tipo NAND.(Si pone el raton en la imagen la podra ver la más grande)
+            </p>
+
+            <div class="dropimage">
+                <img src="imagenes/funcionamientonand.png" id="FuncionamientoNAND" width="400" >
+                <div class ="dropimage-content">
+                    <img src="imagenes/funcionamientonand.png" id="FuncionamientoNAND" height= "600" width="600" >
+                    <div class ="descimage">Funcionamiento NAND</div>
+                </div>
+            </div>
+
+            <p>Esta tabla, indica de manera más gráfica las diferencias entre los 2 modelos </p>
+
+            <img src="imagenes/tabla.gif" id="tabla">
+
+        </section>
+        <section id="instalacion">
+
+            <h1>INSTALACIÓN</h1>
+
+            <p>Bueno en este caso, la mayoría de ordenadores tienen receptores para este tipo de dispositivos. Para utilizar estos dispositivos necesitamos ( dependiendo del tipo ): una entrada de puerto usb o un  lector de tarjetas ( aunque algunas como la smart media ya están desfasadas y en desuso )</p>
+
+        </section>
+        <section id="marcas">
+
+            <h1>MARCAS</h1>
+
+            <p>Algunas marcas son:</p>
+
+            <!-- Galeria de imagenes de marcas -->
+
+            <div class="responsiveb">
+                <div class="galleryb">
+                    <a href="https://www.mitsubishi-motors.es/"target="_blank"><img src="imagenes/mitsubishilogo.jpg" alt="Mitsubishi Logo" width="600" height="400">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="responsiveb">
+                <div class="galleryb">
+                    <a href="https://www.kingston.com/spain/es"target="_blank"><img src="imagenes/kingstonlogo.png" alt="KingstonLogo" width="600" height="400">
+                    </a>
+                </div>
+            </div>
+
+            <div class="responsiveb">
+                <div class="galleryb">
+                    <a href="https://shop.olympus.eu/es_ES/index.html"target="_blank"><img src="imagenes/olympuslogo.jpg" alt="Olympus Logo" width="600" height="400">
+                    </a>
+                </div>
+            </div>
+
+            <div class="responsiveb">
+                <div class="galleryb">
+                    <img src="imagenes/transcendLogo.jpg" alt="Trascend Logo" width="600" height="400">
+                </div>
+            </div>
+
+            <div class="responsiveb">
+                <div class="galleryb">
+                    <img src="imagenes/logosony.webp" alt="Sony Logo" width="600" height="400">
+                </div>
+            </div>
+
+            <div class="responsiveb">
+                <div class="galleryb">
+                    <img src="imagenes/samsunglogo.jpg" alt="Samsung Logo" width="600" height="400">
+                </div>
+            </div>
+
+            <div class="responsiveb">
+                <div class="galleryb">
+                    <img src="imagenes/lexarlogo.png" alt="Lexar Logo" width="600" height="400">
+                </div>
+            </div>
+
+
+            <div class="responsiveb">
+                <div class="galleryb">
+                    <img src="imagenes/hamalogo.png" alt="Hama Logo" width="600" height="400">
+                </div>
+            </div>
+
+            <div class="responsiveb">
+                <div class="galleryb">
+                    <img src="imagenes/kodaklogo.jpg" alt="Kodak Logo" width="600" height="400">
+                </div>
+            </div>
+
+            <div class="responsiveb">
+                <div class="galleryb">
+                    <img src="imagenes/sandisklogo.jpg" alt="SandDisk Logo" width="600" height="400">
+                </div>
+            </div>
+
+            <div class="responsiveb">
+                <div class="galleryb">
+                    <img src="imagenes/toshibalogo.jpg" alt="Toshiba Logo" width="600" height="400">
+                </div>
+            </div>
+
+
+            <div class="clearfix"></div>
+        </section>
+        <section id="dondeyprecios">
+
+            <h1>DONDE</h1>
+            <h1>Y</h1>
+            <h1>PRECIOS</h1>
+
+            <p>Se pueden encontrar tanto en tiendas físicas como en tiendas online, siendo estas últimas más populares y en las que más posibilidades tenemos de encontrar el producto que deseamos. Les dejamos una lista de los productos mencionados con enlaces a páginas de confianza de compra de articulos vía online</p>
+            <section id="enlacesdeprecios">
+
+            <p> --> Tarjeta SD</p>
+
+            <a href="https://www.amazon.es/s?k=tarjeta+sd&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1ZJMYOJRVFIIR&sprefix=tarjeta%2Caps%2C280&ref=nb_sb_ss_ts-a-p_3_7"target="_blank"><img src="imagenes/amazonlogo.jpg" alt="AmazonTarjetaSD" style="width:100px;height:100px;margin:10px;"></a>
+
+            <a href="https://www.pccomponentes.com/buscar/?query=tarjeta+sd"target="_blank"><img src="imagenes/pccomponenteslogo.jpg" alt="PcComponentes TarjetaSD" style="width:100px;height:100px;margin:10px"></a>
+
+            <a href="https://www.fnac.es/Tarjeta-SDXC-Sandisk-Extreme-Pro-64GB-Tarjeta-de-memoria-Tarjeta-SD/a1311457?Origin=fnac_google"target="_blank"><img src="imagenes/fnaclogo.jpg" alt="Fnac Memory Stick" style="width:100px;height:100px;margin:10px"></a>
+
+
+
+            <p> --> xD Picture Card</p>
+
+            <a href="https://www.amazon.es/s?k=xd+picture+card&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1B1DTAZ2QJUBN&sprefix=xd+picture%2Caps%2C177&ref=nb_sb_ss_ts-a-p_1_10"target="_blank"><img src="imagenes/amazonlogo.jpg" alt="Amazon xD Picture" style="width:100px;height:100px;margin:10px;"></a>
+
+            <a href="https://www.orly.es/accesorios-y-consumibles-fotografia/9815-olympus-m-xd-tarjeta-xd-memoria-interna-2-gb-4545350017088.html"target="_blank"><img src="imagenes/orlylogo.png" alt="Orly xD Picture" style="width:200px;height:100px;margin:10px;"></a>
+
+
+
+
+            <p> --> MemoryStick</p>
+
+            <a href="https://www.amazon.es/Sony-MSHX8B-Tarjeta-memoria-Memory/dp/B003F8UWUM/ref=sr_1_12?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=memory+stick&qid=1607880368&sr=8-12"target="_blank"><img src="imagenes/amazonlogo.jpg" alt="Amazon Memroy Stick" style="width:100px;height:100px;margin:10px;"></a>
+
+            <a href="https://www.fnac.es/Sony-Memory-Stick-Pro-GH-Duo-Hx-8GB-Tarjeta-de-memoria-Tarjeta-de-Memoria/a387674?Origin=fnac_google"target="_blank"><img src="imagenes/fnaclogo.jpg" alt="Fnac Memory Stick" style="width:100px;height:100px;margin:10px"></a>
+
+
+
+
+            <p> --> Compact Flash</p>
+
+            <a href="https://www.amazon.es/AgfaPhoto-Tarjeta-memoria-120x-velocidad/dp/B00304S98S?ref_=Oct_s9_apbd_obs_hd_bw_b11DVdH&pf_rd_r=MPYH3G2Q9EGPRV4WZY0A&pf_rd_p=ac6279fa-e2f5-52d1-b62b-24c280a7838b&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&pf_rd_i=934129031"target="_blank"><img src="imagenes/amazonlogo.jpg" alt="Amazon Compact Flash" style="width:100px;height:100px;margin:10px;"></a>
+
+            <a href="https://www.pccomponentes.com/sandisk-extreme-pro-compactflash-32gb"target="_blank"><img src="imagenes/pccomponenteslogo.jpg" alt="PcComponentes TarjetaSD" style="width:100px;height:100px;margin:10px"></a>
+
+            <a href="https://www.fnac.es/Tarjeta-CF-Sandisk-CompactFlash-Ultra-16-GB-Accesorios-Electronica-Accesorios-Foto/a1048843?Origin=fnac_google"target="_blank"><img src="imagenes/fnaclogo.jpg" alt="Fnac Compact Flash" style="width:100px;height:100px;margin:10px"></a>
+
+            </section>
+        </section>
+        <section></section>
+    </div>
+
+</body>
+</html>
